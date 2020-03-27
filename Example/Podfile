@@ -1,3 +1,4 @@
+platform :ios, '10.0'
 use_frameworks!
 
 target 'ListManager_Example' do
@@ -5,7 +6,5 @@ target 'ListManager_Example' do
 
   target 'ListManager_Tests' do
     inherit! :search_paths
-
-    
   end
 end
