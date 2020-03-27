@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ListManager_Example' do
+  pod 'ListManager', :path => '../'
+
+  target 'ListManager_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
